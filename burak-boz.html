@@ -1,0 +1,74 @@
+<!-- no css / no nav bar -->
+
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Open Sans Condensed:300,700' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+  <title>Burak Boz</title>
+</head>
+
+<body>
+
+  <div id="header">
+    <image id="profile-pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSAM8_-I2PjZT7QPmgjrhqXxbvRpHx3-NNkPtO3WFhptAReE9IU&usqp=CAU" alt="Susie Sumbody" onmouseover="bigImg(this)" onmouseout="normalImg(this)" /> Burak Boz
+
+    <span id="navigation">
+      <a href="contact.html">Iletişim </a>
+      <a href="burak-boz.html">Ana Sayfa</a>
+    </span>
+  </div>
+
+    <div class="content">
+    <button id="show/hide" onclick="showhideSection('bio')"> Hide Bio </button>
+    </div>
+  <div id="bio" class="content"> <!-- Use divs to break up the sections of your website. Use the id attribute if you want your CSS to uniquely isolate this element, or use the class attribute if you want to isolate a group of elements. -->
+    <h1>Bio:</h1>
+    <p id="paragraf1">Merhaba ben Burak. Samsun'da yaşıyorum.
+		16 yaşındayım ve 10.sınıfa gidiyorum.<br>Boş zamanlarimda müzik dinlemeyi, film ve dizi izlemeyi, satranç oynamayı seviyorum. 
+    </p>
+
+    <p>
+      <strong>Likes:</strong> Bilim kurgu ve fantastik filmlerini, satranç ve hentbol oynamayı çok seviyorum.
+  <br>
+      <strong>Dislikes:</strong> Edebiyat dersini hiç sevmiyorum.
+    </p>
+
+   <!-- <p>
+      <strong>Fun Fact:</strong> Su ana kadar Turkiye disinda 2 farkli ulkede bulundum. Hayatim boyunca her sene farkli bir ulkeye gidip gezmeyi cok istiyorum. 
+<br>
+    </p> -->
+
+    <p>
+      <h2>En sevdigim websiteleri</h2>
+      <ul>
+        <li>
+				<a href="https://webtekno.com/">Web Tekno:</a> Güncel teknoloji haberlerini, yeni çıkan oyun ve videolarla ilgili haberleri buradan takip ediyorum.
+			</li>
+			<li>
+				<a href="https://www.fotomac.com.tr//">Fotomaç:</a>
+				Sporla ilgili gelişmeleri bu siteden takip ediyorum.
+			</li>
+			<li>
+				<a href="https://uzay.org/">Uzay.org</a>
+				Uzay ve havacılık ile ilgili haberleri bu siteden takip edebiliyorum.
+			</li>
+      </ul>
+    </p>
+  </div>
+  <button>Next Image</button>
+  <div id="projects" class="content">
+    <h1>Son Projeler</h1>
+    <h2>Online Tas, Kagit,Makas</h2>
+    <p>
+      Gecen hafta, html, css ve javascript programlama dillerini ogrendikten sonra ilk projem olarak tas, kagit, makas oyununun online versiyonunu insaa ettim.
+    </p>
+
+    <img id="tas-kagit-makas-projesi" src="imaj1.png" alt="Tas, kagit, makas oyunu ekran goruntusu">
+  </div>
+
+</body>
+
+</html>
